@@ -191,6 +191,7 @@ header img#swell_logo {
 }
 .infoBox h4 a{
   color: rgba(35,107,170,1);
+  margin-left: 15px;
 }
 .infoBox h5{
   font-family: 'Raleway', sans-serif;
@@ -204,6 +205,7 @@ header img#swell_logo {
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.75;
+  margin-left: 15px;
   background-repeat: no-repeat;
   background-position: 0px center;
 }
@@ -216,6 +218,7 @@ header img#swell_logo {
   font-weight: 400;
   line-height: 1.75;
   padding-bottom: 10px;
+  margin-left: 15px;
 }
 .infoBox ul{
   list-style-type: circle;
@@ -263,6 +266,9 @@ header img#swell_logo {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-right: 15px;
+}
+#review a{
+  color: black;
 }
 .ribbon p{
   font-family: "Roboto", sans-serif;
@@ -361,7 +367,6 @@ header img#swell_logo {
   /* make the ribbon into carousel*/
   .assistant{
   text-align: left;
-  margin: 0px 100px 0px 0px;
   }
   .footerContainer li{
   display: inline;
