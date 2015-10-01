@@ -36,7 +36,7 @@
         <!-- Left Assistant Column -->
         <section>
         	<div class="col-md-3" id="leftCol">     	
-    				<div class="assistant"> 
+    				<div class="assistant" id="sidebar"> 
               <h2>your shopping <br>assistant: alissa</h2>
               <img src="img/profile-alissa.png">
               <div class= "assistQuals">
@@ -47,15 +47,13 @@
                 <h3>About</h3>
                 <p>Her specialities are in parenting, arts & crafts, healthcare, baby products, food & drink</p>
               </div>
-      		  </div>
-            <div class="assistant">
               <h2>Your Criteria</h2> 
               <ul>
                 <li><img src="img/icon-green-check.png" alt="greencheck">"Under $300"</li>
                 <li><img src="img/icon-green-check.png" alt="greencheck">"Lightweight"</li>
                 <li><img src="img/icon-green-check.png" alt="greencheck">"Good for paved pathways"</li>
                 <li><img src="img/icon-green-check.png" alt="greencheck">"Cares about good value"</li>
-                <li><img src="img/icon-green-check.png" alt="greencheck">"Blue</li>
+                <li><img src="img/icon-green-check.png" alt="greencheck">"Black or Blue"</li>
               </ul>
             </div>
           </div>
@@ -77,9 +75,9 @@
               <p>We have a database of websites that have been screened for safe, reliable and unbiased content.  Our researchers go through these sites in order to find products that have been thoroughly tested in labs, recommended by mothers around the globe and that fit YOUR preferences.</p>
               <h4>Sources we used</h4>
               <ul>
-                  <li><a href="http://www.babygearlab.com/Best-Stroller">BabyGearLab.com</a> “The Search for the Best Baby Stroller”</li>
-                  <li><a href="http://www.lucieslist.com/baby-registry-basics/baby-strollers/">Lucie's List</a> “Baby Strollers”</li>
-                  <li><a href="http://www.babycenter.com/500_stroller-reviews-details_10386486.bc">Babycenter.com</a> “Stroller reviews and details”</li>
+                  <li><a href="http://www.babygearlab.com/Best-Stroller" class="linky">BabyGearLab.com</a> “The Search for the Best Baby Stroller”</li>
+                  <li><a href="http://www.lucieslist.com/baby-registry-basics/baby-strollers/" class="linky">Lucie's List</a> “Baby Strollers”</li>
+                  <li><a href="http://www.babycenter.com/500_stroller-reviews-details_10386486.bc" class="linky">Babycenter.com</a> “Stroller reviews and details”</li>
               </ul>
             </div>
           </div><!-- End methodology -->
@@ -109,7 +107,7 @@
           <div class="customNavigation">
             <div id="owl-container" class="owl-carousel">
               <div>
-                <a href="#one"><img src="http://ecx.images-amazon.com/images/I/41izoKxRySL.jpg" class="img-responsive" alt="Britax 2014 B-Agile Stroller"></a>
+                <a href="#one"><img src="http://ecx.images-amazon.com/images/I/717jmss-kyL._SX522_.jpg" class="img-responsive" alt="Britax 2014 B-Agile Stroller"></a>
                 <a href="#one"><h4> 1. Britax 2014 B-Agile Stroller </h4></a>
               </div>
               <div>
@@ -135,14 +133,14 @@
               </div><!-- Framing arrowBox  -->
 
             <div class="panel panel-default infoBox">
-              <img src="http://ecx.images-amazon.com/images/I/71RV-tAQ95L._SX522_.jpg" alt="Britax 2014 B-Agile Stroller">
+              <img src="http://ecx.images-amazon.com/images/I/717jmss-kyL._SX522_.jpg" alt="Britax 2014 B-Agile Stroller">
               <div class="row recoLabel">
                 <div class="col-md-8">
-                  <h4>Britax B-Agile 3 Stroller, Aqua</h4>
-                  <h5>$202.50*</h5>
+                  <h4>Britax B-Agile 3 Stroller, Sapphire</h4>
+                  <h5>$216.00*</h5>
                 </div>
                 <div class="col-md-3 col-md-offset-1">
-                  <button type="button" class="btn btn-warning">View on Amazon</button>
+                  <a href="http://www.amazon.com/Britax-B-Agile-3-Stroller-Sapphire/dp/B00SKPPRMS/ref=sr_1_2?s=baby-products&ie=UTF8&qid=1443725409&sr=1-2&keywords=britax+b-agile+stroller+blue#productDetails"><button type="button" class="btn btn-warning">View on Amazon</button></a>
                 </div>
               </div>
               <div class="panel-footer">
@@ -349,7 +347,7 @@
 
               <!-- Framing arrowBox  -->
               <div class="panel panel-danger arrowBox">
-                <p>"This is a wonderful stroller that has ton of really innovative features.  Namely, this stroller allows the baby to face you so you can say hi to them and keep an eye out while you're strolling.  All in all, this is a great stroller that is packed to the brim with features."</p> 
+                <p><b>Why this is Right for you:</b> "This is a wonderful stroller that has ton of really innovative features.  Namely, this stroller allows the baby to face you so you can say hi to them and keep an eye out while you're strolling.  All in all, this is a great stroller that is packed to the brim with features."</p> 
               </div><!-- Framing arrowBox  -->
 
             <div class="panel panel-default infoBox">
@@ -438,25 +436,22 @@
       </div> <!-- Overall row -->
     </div> <!-- Container -->
 
-  <footer>
+<!--   <footer>
     <div class="footerContainer">
-      <ul class="footer-menu">
-        <li><a href="mailto:support@simplelabsinc.com">Contact Support</a></li>
-        <li><a href="http://tryswell.com/about">Terms and conditions</a></li>
-        <li><a href="http://tryswell.com">FAQ</a></li>
-      </ul>
-      <ul class="footer-social_menu">
-        <li><a href="https://www.facebook.com/tryswell" class="icon-facebook-squared" target="_blank"></a></li>
-        <li><a href="https://twitter.com/tryswell" class="icon-twitter" target="_blank"></a></li>
-      </ul>
-      <a class="app-store" href="http://www.bit.ly/TrySwellApp">Get App</a>
+      <button type="button" class="btn btn-info">Get Started!</button>
+      <div class="row">
+        <ul class="footer-menu">
+          <li><a href="mailto:support@simplelabsinc.com">Contact Support</a></li>
+          <li><a href="http://tryswell.com/about">Terms and conditions</a></li>
+          <li><a href="http://tryswell.com">FAQ</a></li>
+        </ul>
+      </div>
     </div>
-  </footer>
-
-
+  </footer> -->
 
 	<!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/stickyfill.js"></script>
 		<script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
 		<script src="js/bootstrap.min.js"></script>

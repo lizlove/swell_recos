@@ -8,11 +8,9 @@
   border: 0;
   vertical-align: baseline;
 }
-
-a {
-  color: rgba(73, 144, 224, 1);
+.container{
+  margin-top: 20px;
 }
-
 html{
   line-height: 1.4;
   font-family: "Roboto", sans-serif;
@@ -22,18 +20,15 @@ html{
   width: 100%;
   height: 100%;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   margin: auto !important;
   text-align: center;
   background-color: rgba(253, 255, 250, 1);
 }
-
 ol, ul {
   list-style: none;
 }
-
 table, tr, td {
   border-spacing: 0;
 }
@@ -143,9 +138,9 @@ header img#swell_logo {
 }
 .assistant{
   font-family: "Roboto", sans-serif;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin: 5px auto 50px auto;
 }
 .assistant img{
   margin: 10px 0px;
@@ -226,14 +221,17 @@ header img#swell_logo {
   list-style-type: circle;
   margin-left: 15px; 
 }
-#leftCol {
+.linky{
+  color:rgba(35, 107, 170, 1);
+}
+#sidebar {
   padding: 0px 15px; 
 }
 .panel-heading{
   background-color: rgba(255, 255, 255, 1);
 }
 #query {
-  text-align: left;
+  text-align: center;
   margin-bottom: 0px;
 }
 .recoBox {
@@ -288,22 +286,92 @@ header img#swell_logo {
   display: inline-block;
   max-height: 250px;
 }
+#owl-container a{
+  color:black;
+}
 
 /*  ===================================
     FOOTER
     =================================== */
-
 .footerContainer{
   background: #79E3C8;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-top: 15px;
 }
+.footerContainer li{
+  display: list-item;
+  margin: 0px 0px;
+}
+.footerContainer button{
+  margin: 20px 0px;
+  font-size: 1.2em;
+}
+/*  ===================================
+    SIDEBAR
+    =================================== */
 
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
 
+@media (max-width: 480px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:20px;
+    width:228px;
+  }
+  #sidebar.affix {
+    position: initial;
+    top:50px;
+    width:228px;
+  }
+}
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .assistant{
+  text-align: left;
+  }
+  .footerContainer li{
+  display: inline;
+  margin: 100px 25px; 
+  }
+  #query {
+  text-align: left;
+  margin-bottom: 0px;
+  }
+} 
 
-
-
-
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* make the ribbon into carousel*/
+  .assistant{
+  text-align: left;
+  margin: 0px 100px 0px 0px;
+  }
+  .footerContainer li{
+  display: inline;
+  margin: 100px 25px; 
+  }
+  #query {
+  text-align: left;
+  margin-bottom: 0px;
+}
+}
 
 
 
