@@ -65,33 +65,26 @@ em, i {
 /*  =========================================
     HELPER CLASSES
     ========================================= */
-
 .caption {
   font-style: italic;
 }
-
 .visible {
   display: block !important;
 }
-
 .invisible {
   display: none !important;
 }
-
 .uppercase {
   text-transform: uppercase;
 }
-
 .underline {
   text-decoration: underline;
 }
-
 .clearfix:after {
   content: "";
   display: block;
   clear: both;
 }
-
 
 /*  ===================================
     HEADER
@@ -111,6 +104,43 @@ header img#swell_logo {
 /*  ===================================
     BODY
     =================================== */
+.accolades {
+  padding: 10px 0px 25px 0px;
+}
+.arrowBox h4{
+  text-align: left;
+  padding-left: 10px;
+  color: #FF7989;
+  font-size: 1.5em;
+}
+.arrowBox {
+  position: relative;
+  background: #fff;
+  border: 2px solid #FF7989;
+  padding: 15px 15px ;
+}
+.arrowBox:after, .arrowBox:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.arrowBox:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 10px;
+  margin-top: -10px;
+}
+.arrowBox:before {
+  border-color: rgba(255, 121, 137, 0);
+  border-right-color: #FF7989;
+  border-width: 13px;
+  margin-top: -13px;
+}
 .assistant{
   font-family: "Roboto", sans-serif;
   text-align: left;
@@ -145,13 +175,6 @@ header img#swell_logo {
 }
 .assistant li img{
   margin-right: 10px; 
-}
-#query {
-  text-align: left;
-  margin-bottom: 0px;
-}
-.panel-heading{
-  background-color: rgba(255, 255, 255, 1);
 }
 .infoBox {
   text-align: left;
@@ -203,41 +226,15 @@ header img#swell_logo {
   list-style-type: circle;
   margin-left: 15px; 
 }
-
-.arrowBox h4{
+#leftCol {
+  padding: 0px 15px; 
+}
+.panel-heading{
+  background-color: rgba(255, 255, 255, 1);
+}
+#query {
   text-align: left;
-  padding-left: 10px;
-  color: #FF7989;
-  font-size: 1.5em;
-}
-
-.arrowBox {
-  position: relative;
-  background: #fff;
-  border: 2px solid #FF7989;
-  padding: 15px 15px ;
-}
-.arrowBox:after, .arrowBox:before {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.arrowBox:after {
-  border-color: rgba(255, 255, 255, 0);
-  border-right-color: #fff;
-  border-width: 10px;
-  margin-top: -10px;
-}
-.arrowBox:before {
-  border-color: rgba(255, 121, 137, 0);
-  border-right-color: #FF7989;
-  border-width: 13px;
-  margin-top: -13px;
+  margin-bottom: 0px;
 }
 .recoBox {
   text-align: left;
@@ -269,10 +266,6 @@ header img#swell_logo {
   margin-bottom: 10px;
   margin-right: 15px;
 }
-
-#leftCol {
-  padding: 0px 15px; 
-}
 .ribbon p{
   font-family: "Roboto", sans-serif;
   font-size: .8em;
@@ -281,15 +274,29 @@ header img#swell_logo {
   padding: 10px 0px;
   color: rgba(244, 156, 6, 1); 
 }
-.accolades {
-  padding: 10px 0px 25px 0px;
-}
 .takeaway{
   margin-bottom: 15px;
 }
 
+/*  ===================================
+    CAROUSEL
+    =================================== */
+#owl-container .owl-carousel{
+  margin: 3px;
+}
+#owl-container img{
+  display: inline-block;
+  max-height: 250px;
+}
 
+/*  ===================================
+    FOOTER
+    =================================== */
 
+.footerContainer{
+  background: #79E3C8;
+  margin-top: 15px;
+}
 
 
 
