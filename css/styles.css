@@ -259,7 +259,7 @@ header img#swell_logo {
 .recoBox img{
   display: block;
   margin: 0px auto;
-  max-width: 312px;
+  max-width: auto;
 }
 .recoLabel button{
   float: right;
