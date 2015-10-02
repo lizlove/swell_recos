@@ -2,12 +2,6 @@
 /*  ===================================
     GLOBAL
     =================================== */
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
 .container{
   margin-top: 20px;
 }
@@ -22,12 +16,13 @@ html{
 }
 body {
   font-family: "Roboto", sans-serif;
-  margin: auto !important;
+  margin: auto;
   text-align: center;
-  background-color: rgba(253, 255, 250, 1);
+  background-color: rgb(253, 255, 250);
 }
 ol, ul {
   list-style: none;
+  padding-left: 0px;
 }
 table, tr, td {
   border-spacing: 0;
@@ -64,10 +59,10 @@ em, i {
   font-style: italic;
 }
 .visible {
-  display: block !important;
+  display: block;
 }
 .invisible {
-  display: none !important;
+  display: none;
 }
 .uppercase {
   text-transform: uppercase;
@@ -84,18 +79,7 @@ em, i {
 /*  ===================================
     HEADER
     =================================== */
-header {
-	margin-bottom:30px;
-  padding-bottom:15px;
-}
-header img#swell_logo {
-  width: 60px;
-  margin-top: 30px;
-  display: block;
-}
-#title-header {
-  text-align: left;
-}
+
 /*  ===================================
     BODY
     =================================== */
@@ -140,7 +124,6 @@ header img#swell_logo {
   font-family: "Roboto", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  margin: 5px auto 50px auto;
 }
 .assistant img{
   margin: 10px 0px;
@@ -148,7 +131,7 @@ header img#swell_logo {
 .assistant h2{
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1.5px;
-  color: rgba(53, 180, 151, 1);
+  color: rgb(53, 180, 151);
   font-size:1.25em;
   font-weight:700;
 }
@@ -163,7 +146,7 @@ header img#swell_logo {
   font-size:0.85em;
 }
 .assistant li{
-  color: rgba(73, 144, 224, 1);
+  color: rgb(73, 144, 224);
   font-size:0.85em;
   font-weight: 500;
   line-height: 2.5em;
@@ -173,13 +156,13 @@ header img#swell_logo {
 }
 .infoBox {
   text-align: left;
-  padding: 0px10px;
+  padding: 0px 10px;
   -webkit-box-shadow: 0px 0px 2px 2px rgba(207,207,207,0.4);
   -moz-box-shadow: 0px 0px 2px 2px rgba(207,207,207,0.4);
   box-shadow: 0px 0px 2px 2px rgba(207,207,207,0.4);
 }
 .infoBox h3{
-  color: rgba(53, 180, 151, 1);
+  color: rgb(53, 180, 151);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -190,12 +173,12 @@ header img#swell_logo {
   margin-left: 15px;
 }
 .infoBox h4 a{
-  color: rgba(35,107,170,1);
+  color: rgb(35,107,170);
   margin-left: 15px;
 }
 .infoBox h5{
   font-family: 'Raleway', sans-serif;
-  color: rgba(126, 211, 33, 1);
+  color: rgb(126, 211, 33);
   font-weight: 500;
   margin-left: 15px;
   font-size: 1.1em;
@@ -225,13 +208,13 @@ header img#swell_logo {
   margin-left: 15px; 
 }
 .linky{
-  color:rgba(35, 107, 170, 1);
+  color:rgb(35, 107, 170);
 }
 #sidebar {
   padding: 0px 15px; 
 }
 .panel-heading{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 255, 255);
 }
 #query {
   text-align: center;
@@ -240,10 +223,10 @@ header img#swell_logo {
 .recoBox {
   text-align: left;
   padding: 0px 10px;
-  background-color: rgba(239, 246, 255, 1);
+  background-color: rgb(239, 246, 255);
 }
 .recoBox > .panel-heading{
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
   background-color: transparent;
   border-bottom: 0px;
 }
@@ -276,7 +259,7 @@ header img#swell_logo {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0px;
-  color: rgba(244, 156, 6, 1); 
+  color: rgb(244, 156, 6); 
 }
 .takeaway{
   margin-bottom: 15px;
@@ -325,7 +308,7 @@ header img#swell_logo {
   }
   #sidebar.affix {
     position: fixed;
-    top:70px;
+    top:30px;
     width:228px;
   }
 }
@@ -352,10 +335,6 @@ header img#swell_logo {
   .assistant{
   text-align: left;
   }
-  .footerContainer li{
-  display: inline;
-  margin: 100px 25px; 
-  }
   #query {
   text-align: left;
   margin-bottom: 0px;
@@ -367,10 +346,6 @@ header img#swell_logo {
   /* make the ribbon into carousel*/
   .assistant{
   text-align: left;
-  }
-  .footerContainer li{
-  display: inline;
-  margin: 100px 25px; 
   }
   #query {
   text-align: left;
