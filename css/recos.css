@@ -80,6 +80,11 @@ em, i {
     HEADER
     =================================== */
 
+header{
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
 /*  ===================================
     BODY
     =================================== */
@@ -126,7 +131,7 @@ em, i {
   text-transform: uppercase;
 }
 .assistant img{
-  margin: 10px 0px;
+  max-width: 228px;
 }
 .assistant h2{
   font-family: 'Roboto', sans-serif;
@@ -210,8 +215,12 @@ em, i {
 .linky{
   color:rgb(35, 107, 170);
 }
+#list-unstyled {
+    list-style: none;
+}
 #sidebar {
-  padding: 0px 15px; 
+  padding: 0px 15px;
+  margin: auto; 
 }
 .panel-heading{
   background-color: rgb(255, 255, 255);
@@ -303,12 +312,12 @@ em, i {
 @media (min-width: 979px) {
   #sidebar.affix-top {
     position: static;
-    margin-top:30px;
+    margin-top:50px;
     width:228px;
   }
   #sidebar.affix {
     position: fixed;
-    top:30px;
+    top:50px;
     width:228px;
   }
 }
