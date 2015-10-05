@@ -88,6 +88,7 @@ header{
   margin: 20px 0px 20px 0px;
 }
 
+<<<<<<< HEAD:stylesheets/recos.css
 /*  NAVIGATION */
 header.home-header {
     position: absolute;
@@ -156,6 +157,8 @@ header.home-header ul li.facebook {
     cursor:pointer;
 }
 
+=======
+>>>>>>> master:css/recos.css
 /*  ===================================
     BODY
     =================================== */
@@ -505,10 +508,17 @@ footer button:hover {
   #sidebar.affix-top {
     position: static;
     margin-top:50px;
+<<<<<<< HEAD:stylesheets/recos.css
     width:350px;
   }
   #sidebar.affix {
     position: initial;
+=======
+    width:228px;
+  }
+  #sidebar.affix {
+    position: fixed;
+>>>>>>> master:css/recos.css
     top:50px;
     width:228px;
   }
