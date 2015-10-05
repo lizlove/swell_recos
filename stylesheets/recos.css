@@ -134,7 +134,7 @@ header.home-header ul li.home {
     height: 33px;
     width: 80px;
     text-indent: -9999px;
-    margin: 10px 0px 0px 45px;
+    margin: 10px 0px 0px 10px;
     cursor: pointer;
 }
 
@@ -197,7 +197,7 @@ header.home-header ul li.facebook {
   margin-top: -13px;
 }
 .assistant{
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 .assistant img{
@@ -504,8 +504,8 @@ footer button:hover {
 @media (max-width: 480px) {
   #sidebar.affix-top {
     position: static;
-    margin-top:20px;
-    width:228px;
+    margin-top:50px;
+    width:350px;
   }
   #sidebar.affix {
     position: initial;
