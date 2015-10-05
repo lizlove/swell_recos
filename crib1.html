@@ -5,7 +5,7 @@
     <meta name="description" content="Swell is a free recommendation app that's powered by a team of experts who help you complete your tasks. Enter your to-dos and we'll find personalized tips tailored to you."/>
     <meta name="keywords" content="Help, Swell, Expert, Concierge, Advice, Babysitter, Work, Recommendation, Assistant, Research, Helpful, Planner, Gift, Task, Todo"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
     <title>Buy a crib</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -14,10 +14,12 @@
     <link href="stylesheets/recos.css" rel="stylesheet">
     <link href="stylesheets/owl.carousel.css" rel="stylesheet">
     <link href="stylesheets/owl.theme.css" rel="stylesheet">
+<!--     <link href="stylesheets/persona-main.css" rel="stylesheet">
+    <link href="stylesheets/persona-mobile.css" rel="stylesheet"> -->
 
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css"/>
     <!-- Pinterest Verification -->
     <meta name="p:domain_verify" content="6313c037a9a8dcca58d133e0e07caa2a" />
 
@@ -70,7 +72,8 @@
     <div class="container">
 
             <!-- Swell Header -->
-      <header class="home-header">
+      <div class="row">
+<!--         <header class="home-header">
         <ul class="nav">
             <a href="/parents">
                 <li class="home">Swell</li>
@@ -85,37 +88,35 @@
                 <li class="about-us">FAQ</li>
             </a>
         </ul>
-      </header><!-- Swell Header -->
-      <div class="row">
-        
+        </header> Swell Header -->
+
+        <nav id="query" class="navbar-fixed-top">
+          <h1>"Buy a Crib"</h1>
+        </nav>
+      </div>
+
+
+      <div class="row">  
         <!-- Left Assistant Column -->
         <section>
           <div class="col-md-3" id="leftCol">       
             <div class="assistant" id="sidebar"> 
-              <h2>your shopping <br>assistant: alissa</h2>
-              <img src="img/recos/profile-alissa.png">
-              <div class= "assistQuals">
-                <h3>Registered Nurse</h3>
-                <p>Alissa is a mother of a two-year old girl. </p>
-              </div>
-              <div class="assistant">
-              <h2>Your Criteria</h2> 
-              <ul>
-                <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Under $400"</li>
-                <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Convertible bed"</li>
-                <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Adjustable height"</li>
-              </ul>
+              <h2>your shopping assistant: alissa</h2>
+              <img src="img/recos/profile-alissa.png"><h3>Registered Nurse</h3><p>Alissa is a mother of a two-year old girl. </p>
+                <h2>Your Criteria</h2> 
+                <ul>
+                  <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Under $400"</li>
+                  <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Convertible bed"</li>
+                  <li><img src="img/recos/icon-green-check.png" alt="greencheck">"Adjustable height"</li>
+                </ul>
             </div>
-          </div>
+          
         </section> 
 
         <!-- Main Recos Right Column -->
         <section class="recos">
 
         <div class="col-md-9">
-          <header>
-            <h1 id="query">"Buy a Crib"</h2>
-          </header>
 
           <!-- Methodology -->  
           <div class="panel panel-default infoBox">
@@ -454,7 +455,6 @@
   
   <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/stickyfill.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/bootstrap.min.js"></script>

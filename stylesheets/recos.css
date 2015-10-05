@@ -10,7 +10,7 @@
 }
 html{
   line-height: 1.4;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-size: 100%;
   color: #222;
@@ -18,7 +18,7 @@ html{
   height: 100%;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: auto;
   text-align: center;
   background-color: rgb(253, 255, 250);
@@ -156,6 +156,8 @@ header.home-header ul li.facebook {
     cursor:pointer;
 }
 
+
+
 /*  ===================================
     BODY
     =================================== */
@@ -197,11 +199,11 @@ header.home-header ul li.facebook {
   margin-top: -13px;
 }
 .assistant{
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 .assistant img{
-  max-width: 228px;
+  max-width: 280px;
 }
 .assistant h2{
   font-family: 'Montserrat', sans-serif;
@@ -227,7 +229,7 @@ header.home-header ul li.facebook {
   line-height: 2.5em;
 }
 .assistant li img{
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 .infoBox {
   text-align: left;
@@ -257,7 +259,7 @@ header.home-header ul li.facebook {
   font-size: 1.1em;
 }
 .infoBox li{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.75;
@@ -269,7 +271,7 @@ header.home-header ul li.facebook {
   display: block;
 }
 .infoBox p{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
   line-height: 1.75;
@@ -294,8 +296,16 @@ header.home-header ul li.facebook {
   background-color: rgb(255, 255, 255);
 }
 #query {
-  text-align: center;
-  margin-bottom: 0px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left:15px; 
+  border-width: 0 0 1px;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.row {
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 .recoBox {
   text-align: left;
@@ -308,7 +318,7 @@ header.home-header ul li.facebook {
   border-bottom: 0px;
 }
 .recoBox > .arrowBox{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-left: 10px;
   text-align: left;
   padding-left: 10px;
@@ -332,7 +342,7 @@ header.home-header ul li.facebook {
   color: black;
 }
 .ribbon p{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .8em;
   text-align: center;
   text-transform: uppercase;
@@ -504,13 +514,13 @@ footer button:hover {
 @media (max-width: 480px) {
   #sidebar.affix-top {
     position: static;
-    margin-top:20px;
-    width:228px;
+    width:370px;
+    padding-right: 0px;
   }
   #sidebar.affix {
     position: initial;
-    top:50px;
-    width:228px;
+    width:370px;
+    padding-right: 0px;
   }
   footer button #tips{
     width: 45%;
@@ -573,9 +583,138 @@ footer button:hover {
   #query {
   text-align: left;
   margin-bottom: 0px;
+  }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  
+  /*  MAIN NAV  */
+  header {
+    padding-left: 8%;
+  }
+  header.home-header ul {
+    margin-bottom: 10px;
+  }
+  header.home-header ul li.home {
+    height: 25px;
+    width: 60px;
+    text-indent: -9999px;
+    margin: 5px 0 0 10px;
+    cursor: pointer;
+  }
+
+  header.home-header ul li.download-app {
+    display: none;
+  }
+
+  header.home-header ul li.twitter {
+    height: 20px;
+      width: 20px;
+      margin-left: 30px;
+  }
+
+  header.home-header ul li.facebook {
+    height: 20px;
+      width: 20px;
+      margin-left: 30px;
+  }
+
+  header.home-header ul li.about-us {
+      display: none;
+  }
+
+  /* STICKY NAV */
+  div.menu-wrapper {
+      height: 130px;
+  }
+
+  .landing-moms div.menu-wrapper {
+      height: 60px;
+  }
+
+  .landing-moms-to-be div.menu-wrapper {
+    height: 100px;
+  }
+  header.site-header {
+      margin-bottom: 0;
+  }
+  header.site-header nav ul {
+      padding: 2em 0 0 0;
+      display: inline;
+      margin: 0 .5em !important;
+  }
+
+  header.site-header nav ul li {
+    margin-left: 0; 
+  }
+
+  header.site-header nav ul li a {
+      font-size: 10px;
+      line-height: 17px;
+  }
+
+  header.site-header nav ul li.app-store:before {
+    text-align: center;
+    display: block;
+    margin: 0.5em auto 0 auto;
+  }
+  
+  .landing-moms header.sticky-nav nav ul {
+    min-height: 40px;
+  }
+
+  header.sticky-nav nav ul {
+      margin: 0 0 -0.75em 0;
+      padding: 0 2em;
+      min-height: 70px;
+  }
+
+  header.sticky-nav nav ul li {
+      display: inline;
+      margin: 0 .5em !important;
+      line-height: 16px;
+  }
+
+  header.sticky-nav nav ul li a {
+      font-size: 10px;
+      line-height: 24px;
+  }
+
+  header.sticky-nav nav ul li.app-store:before {
+    text-align: center;
+    display: block;
+    margin: 0.5em auto 0 auto;
+  }
+
+  header.site-header ul li.say-hello {
+      font-size: 10px;
+      display: inline-block;
+      line-height: 18px;
+      padding: 0.5em 1.5em;
+      margin: 1em 0 0 0;
+  }
+
+  header.sticky-nav ul li.say-hello {
+      font-size: 10px;
+      display: inline-block;
+      line-height: 18px;
+      padding: 0.5em 1.5em;
+      margin-left: 0;
+      margin-bottom: 1em;
+  }
+  .assistant img{
+    display: inline-block;
+    max-height: 100px;
+  }
+  .assistant h2{
+    display: inline-block;
+    font-size: 1em;
 }
 
 
-
-
+  .assistant ul{
+    text-align: left;
+}
+  .assistant li{
+    margin-left: 10px;
+}
